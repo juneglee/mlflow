@@ -1,11 +1,7 @@
+name: mnist
 channels:
-- conda-forge
+  - defaults
 dependencies:
-- python=3.8.2
-- pip
-- pip:
   - mlflow
-  - cloudpickle==1.6.0
-  - boto3
   - torchvision>=0.9.1
   - torch>=1.9.0

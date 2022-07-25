@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - pudb
+  - cython
+  - scipy
+  - wheel
